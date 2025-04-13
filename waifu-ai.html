@@ -1,0 +1,5 @@
+<script>
+const waifuList = ["Rem", "Zero Two", "Asuna", "Hinata"];
+const getWaifu = () => waifuList[Math.floor(Math.random() * waifuList.length)];
+document.body.innerHTML = `<div class='p-6 text-center'><h2 class='text-2xl mb-4'>Waifu yang cocok buat kamu adalah:</h2><p class='text-4xl text-pink-400'>${getWaifu()}</p></div>`;
+</script>

@@ -1,0 +1,6 @@
+<script>
+const characters = ["Naruto", "Luffy", "Sasuke", "Goku"];
+const answer = characters[Math.floor(Math.random() * characters.length)];
+const guess = prompt("Tebak karakter: Naruto, Luffy, Sasuke, atau Goku?");
+alert(guess === answer ? "Benar!" : `Salah! Jawaban: ${answer}`);
+</script>
